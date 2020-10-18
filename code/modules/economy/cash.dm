@@ -95,6 +95,7 @@
 	var/amount = input(usr, "How many Ethericoins do you want to take? (0 to [src.worth])", "Take Money", 20) as num
 	amount = round(Clamp(amount, 0, src.worth))
 	if(amount==0) return 0
+	if(loc!=usr) return 0
 
 	src.worth -= amount
 	src.update_icon()
