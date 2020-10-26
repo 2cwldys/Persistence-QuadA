@@ -120,8 +120,8 @@ function run_test {
     exec_test "$*"
     ret=$?
 
-    echo $ret
-    if [[ ret -ne 0 ]]
+    echo "result: $ret"
+    if [[ ret -gt 0 ]]
       then fail "$name" $ret
       else ((PASSED++))
     fi
