@@ -1,6 +1,7 @@
 language: generic
 sudo: false
-dist: trusty
+dist: xenial
+jdk: openjdk8
 
 env:
   global:
@@ -9,18 +10,19 @@ env:
 
 # ALL MAPS MUST BE PRESENT HERE
 # IF THEY ARE NOT, YOUR BUILD WILL FAIL
-  matrix:
-    - TEST=CODE
-    - TEST=WEB
-    - TEST=MAP MAP_PATH=vignette
+matrix:
+    include:
+    - name: "Code"
+      env: TEST=CODE
+    - name: "Web"
+      env: TEST=WEB
+    - name: "Map - Vignette"
+      env: TEST=MAP MAP_PATH=vignette
 
 cache:
   directories:
     - tgui/node_modules
     - $HOME/BYOND-${BYOND_MAJOR}.${BYOND_MINOR}
-
-before_install:
-    - unset _JAVA_OPTIONS
 
 addons:
   apt:
@@ -28,9 +30,9 @@ addons:
       - libc6-i386
       - libgcc1:i386
       - libstdc++6:i386
-      - oracle-java8-set-default
       - python
       - python-pip
+      - uchardet
 
 script:
   - test/run-test.sh
