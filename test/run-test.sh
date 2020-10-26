@@ -119,9 +119,10 @@ function run_test {
     shift
     exec_test "$*"
     ret=$?
-    if [[ ret -ne 0 ]]
-    then fail "$name" $ret
-    else ((PASSED++))
+
+    if [[ ret -gt 0 ]]
+      then fail "$name" $ret
+      else ((PASSED++))
     fi
 }
 
