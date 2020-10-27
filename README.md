@@ -1,37 +1,12 @@
-# Persistence-QuadA
+# Persistent SS13
+![Discord](https://img.shields.io/discord/766974370266349588)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/SS13-Quadrant/Persistence-QuadA/main)
+[![Build Status](https://travis-ci.com/SS13-Quadrant/Persistence-QuadA.svg?branch=main)](https://travis-ci.com/SS13-Quadrant/Persistence-QuadA)
 
-<div background-color="#000011">
-	<h1 align="center">
-		<img src="https://wiki.persistentss13.com/resources/assets/NT.png" height="24px"/>
-		<a href="https://github.com/Persistent-SS13/Persistent-Bay/" style="">
-			Persistent SS13
-		</a>
-		<br>
-	</h1>
-	<p align="center">
-		<a href="https://persistentss13.com/"><img alt="Website" src="https://img.shields.io/website/https/persistentss13.com.svg?down_message=Offline...&label=Website&up_message=Online%21"></a>
-		<a href="https://discord.gg/QCWcHxN"><img alt="Discord" src="https://img.shields.io/discord/332252466206998539.svg?label=Discord"></a>
-		<a href="https://github.com/Persistent-SS13/Persistent-Bay/tree/dev"><img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Persistent-SS13/Persistent-Bay/dev.svg?label=Last%20Update"></a>
-		<img alt="Travis (.org)" src="https://img.shields.io/travis/Persistent-SS13/Persistent-Bay.svg?label=Latest%20Build">
-	</p>
-	<h3 align="center">
-		The #1 persistent SS13 game!
-	</h3>
-	<p>
-		<h4 align="center">
-			Built on top of Baystation's codebase, Persistent SS13 (aka Persistence) is a whole different concept from other SS13 deviations.
-			<br>
-			You, and the rest of the community, are the ones that will sculpt the story.
-			<br>
-			Start out as a nobody and make your own living in this collaborative role-play game!
-			<br>
-			Be an adventurer, a janitor, build your own business, open up a restaurant or build a god damn space shuttle... You decide.
-			<br><br>
-			<img src="https://wiki.persistentss13.com/images/e/e5/PS13-AI.gif"/>
-		</h4>
-	</p>
-</div>
-
+Built from [Persistent-SS13's Persistent Bay](https://github.com/Persistent-SS13/Persistent-Bay), Persistent SS13 (aka Persistence) is a whole different concept from other SS13 deviations.
+You, and the rest of the community, are the ones that will sculpt the story.
+Start out as a nobody and make your own living in this collaborative role-play game!
+Be an adventurer, a janitor, build your own business, open up a restaurant or build a god damn space shuttle... You decide.
 
 ---
 
@@ -56,11 +31,9 @@ See tgui/assets/fonts/SIL-OFL-1.1-LICENSE.md for the SIL Open Font License.
 All assets including icons and sound are under a [Creative Commons 3.0 BY-SA license](http://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated.
 
 ### GETTING THE CODE
-The simplest way to obtain the code is using the github .zip feature.
+The simplest way to obtain the code is using the Github "Download ZIP" feature under via Code button in green or alternatively you can use [Github Desktop](https://desktop.github.com/).
 
-Click [here](https://github.com/Persistent-SS13/Persistent-Bay/archive/dev.zip) to get the latest code as a .zip file, then unzip it to wherever you want.
-
-The more complicated and easier to update method is using git.  You'll need to download git or some client from [here](http://git-scm.com/).  When that's installed, right click in any folder and click on "Git Bash".  When that opens, type in:
+The more complicated and easier to update method is using git. You'll need to download git or some client from [here](http://git-scm.com/).  When that's installed, right click in any folder and click on "Git Bash".  When that opens, type in:
 
     git clone https://github.com/Persistent-SS13/Persistent-Bay.git
 
@@ -77,7 +50,7 @@ First-time installation should be fairly straightforward.  First, you'll need BY
 This is a sourcecode-only release, so the next step is to compile the server files.  Open persistentss13.dme by double-clicking it, open the Build menu, and click compile.  This'll take a little while, and if everything's done right you'll get a message like this:
 
     saving persistentss13.dmb (DEBUG mode)
-    
+
     persistentss13.dmb - 0 errors, 0 warnings
 
 If you see any errors or warnings, something has gone wrong - possibly a corrupt download or the files extracted wrong, or a code issue on the main repo.  Ask on IRC.
