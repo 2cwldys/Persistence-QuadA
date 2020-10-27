@@ -26,9 +26,8 @@ cache:
 
 before_install:
   - chmod -R +x test
+  - chmod -R +x scripts
   - chmod +x ./install-byond.sh
-  - chmod +x scripts/validateTravisContainsAllMaps.sh
-  - chmod +x scripts/dm.sh
 
 addons:
   apt:
