@@ -120,7 +120,6 @@ function run_test {
     exec_test "$*"
     ret=$?
 
-    echo "result: $ret"
     if [[ ret -gt 0 ]]
       then fail "$name" $ret
       else ((PASSED++))
