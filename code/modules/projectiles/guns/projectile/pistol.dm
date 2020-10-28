@@ -77,6 +77,28 @@
 	else
 		icon_state = "magnum-e"
 
+/obj/item/weapon/gun/projectile/betta
+	name = "Betta V2"
+	desc = "A standard issued pistol used by military units around space. Chambered in (9mm)."
+	icon_state = "m9"
+	item_state = "pistol1"
+	w_class = ITEM_SIZE_SMALL
+	caliber = "a9mm"
+	silenced = 0
+	fire_delay = 1
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2, TECH_ILLEGAL = 3)
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/a9m
+	allowed_magazines = /obj/item/ammo_magazine/a9m
+	jam_chance = 0
+
+/obj/item/weapon/gun/projectile/betta/update_icon()
+	..()
+	if(ammo_magazine && ammo_magazine.stored_ammo.len)
+		icon_state = "m9"
+	else
+		icon_state = "m9_empty"
+
 /obj/item/weapon/gun/projectile/gyropistol
 	name = "gyrojet pistol"
 	desc = "A bulky pistol designed to fire self propelled rounds."

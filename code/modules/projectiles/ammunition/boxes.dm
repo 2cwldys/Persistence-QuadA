@@ -128,6 +128,20 @@
 	name = "magazine (9mm, flash)"
 	ammo_type = /obj/item/ammo_casing/c9mm/flash
 
+/obj/item/ammo_magazine/a9m
+	name = "betta magazine (9mm)"
+	icon_state = "a9m"
+	origin_tech = list(TECH_COMBAT = 2)
+	mag_type = MAGAZINE
+	matter = list(MATERIAL_STEEL = 600)
+	caliber = "9mm"
+	ammo_type = /obj/item/ammo_casing/c9mm
+	max_ammo = 15
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a9m/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/box/c9mm
 	name = "ammunition box (9mm)"
 	icon_state = "9mm"

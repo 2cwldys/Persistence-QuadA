@@ -40,3 +40,43 @@
 	desc = "Worn by robust fighters who are willing to do anything to win."
 	icon_state = "luchar"
 	item_state = "luchar"
+
+/obj/item/clothing/mask/dal
+	name = "clown mask"
+	desc = "Designed to hide identities."
+	icon_state = "dal"
+	item_state = "dal"
+	flags_inv = HIDEFACE
+	body_parts_covered = FACE|HEAD
+	pull_mask = 1
+	w_class = ITEM_SIZE_SMALL
+
+/obj/item/clothing/mask/wol
+	name = "clown mask"
+	desc = "Designed to hide identities."
+	icon_state = "wol"
+	item_state = "wol"
+	flags_inv = HIDEFACE
+	body_parts_covered = FACE|HEAD
+	pull_mask = 1
+	w_class = ITEM_SIZE_SMALL
+
+/obj/item/clothing/mask/hox
+	name = "clown mask"
+	desc = "Designed to hide identities."
+	icon_state = "hox"
+	item_state = "hox"
+	flags_inv = HIDEFACE
+	body_parts_covered = FACE|HEAD
+	pull_mask = 1
+	w_class = ITEM_SIZE_SMALL
+
+/obj/item/clothing/mask/cha
+	name = "clown mask"
+	desc = "Designed to hide identities."
+	icon_state = "cha"
+	item_state = "cha"
+	flags_inv = HIDEFACE
+	body_parts_covered = FACE|HEAD
+	pull_mask = 1
+	w_class = ITEM_SIZE_SMALL
