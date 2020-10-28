@@ -12,7 +12,7 @@
 	ammo_type = /obj/item/ammo_casing/c9mm
 	multi_aim = 1
 	burst_delay = 2
-	jam_chance=8
+	jam_chance=0
 
 	//machine pistol, easier to one-hand with
 	firemodes = list(

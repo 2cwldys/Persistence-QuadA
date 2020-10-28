@@ -38,6 +38,20 @@
 	attack_verb = list("stabbed", "chopped", "cut")
 	applies_material_colour = 1
 
+/obj/item/weapon/material/bowie
+	name = "bowie knife"
+	desc = "A very big and sharp knife used by people with taste."
+	icon = 'icons/obj/weapons.dmi'
+	icon_state = "bowie"
+	force_divisor = 0.50 // 12 with hardness 60 (steel)
+	thrown_force_divisor = 0.20 // 15 with weight 20 (steel)
+	w_class = ITEM_SIZE_SMALL
+	sharp = 1
+	edge = 1
+	origin_tech = list(TECH_MATERIAL = 2, TECH_COMBAT = 2)
+	attack_verb = list("stabbed", "torn", "cut")
+	applies_material_colour = 0
+
 /obj/item/weapon/material/hatchet/machete
 	name = "machete"
 	desc = "A long, sturdy blade with a rugged handle. Leading the way to cursed treasures since before space travel."

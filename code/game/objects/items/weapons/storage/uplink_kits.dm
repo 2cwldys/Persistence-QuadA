@@ -189,6 +189,50 @@
 	. = ..()
 	make_exact_fit()
 
+/obj/item/weapon/storage/secure/briefcase/hardcase
+	name = "hardcase"
+	desc = "A very fine steel made hardcase."
+	icon_state = "hard_case"
+	item_state = "hard_case"
+	obj_flags = OBJ_FLAG_CONDUCTIBLE
+	force = 1
+	throw_speed = 1
+	throw_range = 4
+	w_class = ITEM_SIZE_NORMAL
+	max_w_class = ITEM_SIZE_HUGE
+	max_storage_space = DEFAULT_BACKPACK_STORAGE
+
+/obj/item/weapon/storage/secure/briefcase/hardcasemilitary
+	name = "military hardcase"
+	desc = "A military grade hardcase."
+	icon_state = "military_case"
+	item_state = "hard_case"
+	obj_flags = OBJ_FLAG_CONDUCTIBLE
+	force = 2
+	throw_speed = 1
+	throw_range = 4
+	w_class = ITEM_SIZE_NORMAL
+	max_w_class = ITEM_SIZE_HUGE
+	max_storage_space = DEFAULT_BACKPACK_STORAGE
+
+/obj/item/weapon/storage/secure/briefcase/hardcasesyndi
+	name = "Syndicate hardcase"
+	desc = "A red spooky hardcase."
+	icon_state = "syndi_case"
+	item_state = "hard_case"
+	obj_flags = OBJ_FLAG_CONDUCTIBLE
+	force = 2
+	throw_speed = 1
+	throw_range = 4
+	w_class = ITEM_SIZE_NORMAL
+	max_w_class = ITEM_SIZE_HUGE
+	max_storage_space = DEFAULT_BACKPACK_STORAGE
+	startswith = list(
+		/obj/item/clothing/suit/armor/pcarrier/merc,
+		/obj/item/clothing/head/helmet/merc,
+		/obj/item/clothing/head/helmet/merc,
+	)
+
 /obj/item/weapon/storage/secure/briefcase/money
 
 	startswith = list(/obj/item/weapon/spacecash/bundle/c1000 = 10)

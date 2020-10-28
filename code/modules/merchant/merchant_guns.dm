@@ -24,4 +24,4 @@
 
 /obj/item/weapon/gun/projectile/automatic/mini_uzi/usi
 	desc = "An uncommon machine pistol, sometimes refered to as an 'uzi' by the backwater spacers it is often associated with. This one looks especially run-down. Uses .45 rounds."
-	jam_chance = 20
+	jam_chance = 0

@@ -111,6 +111,31 @@
 		return 0 //No blocking bullets, I'm afraid.
 	return base_block_chance
 
+/obj/item/weapon/shield/metal
+	name = "steel shield"
+	desc = "A steel shield made to block brute force"
+	icon = 'icons/obj/weapons.dmi'
+	icon_state = "metal"
+	slot_flags = SLOT_BACK
+	force = 8
+	throwforce = 8
+	base_block_chance = 80
+	throw_speed = 10
+	throw_range = 20
+	w_class = ITEM_SIZE_HUGE
+	origin_tech = list(TECH_MATERIAL = 3)
+	matter = list(MATERIAL_STEEL = 2000)
+	attack_verb = list("shoved", "bashed")
+
+/obj/item/weapon/shield/metal/handle_shield(mob/user)
+	. = ..()
+	if(.) playsound(user.loc, 'sound/weapons/Genhit.ogg', 50, 1)
+
+/obj/item/weapon/shield/metal/get_block_chance(mob/user, var/damage, atom/damage_source = null, mob/attacker = null)
+	if(istype(damage_source, /obj/item/projectile))
+		return 0 //No blocking bullets, I'm afraid.
+	return base_block_chance
+
 /*
  * Energy Shield
  */
