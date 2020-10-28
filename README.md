@@ -1,4 +1,4 @@
-[![Logo Image](https://winterfang.com/files/ps13-banner.png)]
+![Logo Image](https://winterfang.com/files/ps13-banner.png)
 
 ![Discord](https://img.shields.io/discord/766974370266349588?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/SS13-Quadrant/Persistence-QuadA?style=for-the-badge)
