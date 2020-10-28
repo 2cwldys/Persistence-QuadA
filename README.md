@@ -1,8 +1,11 @@
-# Persistent SS13
-![Discord](https://img.shields.io/discord/766974370266349588)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/SS13-Quadrant/Persistence-QuadA/main)
-[![Build Status](https://travis-ci.com/SS13-Quadrant/Persistence-QuadA.svg?branch=main)](https://travis-ci.com/SS13-Quadrant/Persistence-QuadA)
+[![Logo Image](https://winterfang.com/files/ps13-banner.png)]
 
+![Discord](https://img.shields.io/discord/766974370266349588?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors-anon/SS13-Quadrant/Persistence-QuadA?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/SS13-Quadrant/Persistence-QuadA?style=for-the-badge)
+[![Build Status](https://img.shields.io/travis/SS13-Quadrant/Persistence-QuadA/main?style=for-the-badge)](https://travis-ci.com/SS13-Quadrant/Persistence-QuadA)
+
+# Persistent Station 13
 Built from [Persistent-SS13's Persistent Bay](https://github.com/Persistent-SS13/Persistent-Bay), Persistent SS13 (aka Persistence) is a whole different concept from other SS13 deviations.
 You, and the rest of the community, are the ones that will sculpt the story.
 Start out as a nobody and make your own living in this collaborative role-play game!
